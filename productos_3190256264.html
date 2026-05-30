@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos - Supermercado El Ahorro</title>
+  <link rel="stylesheet" href="css_estilos_3190256264.css">
+</head>
+<body class="body_3190256264">
+  <header class="header_3190256264">
+    <h1>🛒 Supermercado El Ahorro</h1>
+  </header>
+  <nav class="main-nav_3190256264">
+    <ul>
+      <li><a href="index_3190256264.html">Inicio</a></li>
+      <li><a href="productos_3190256264.html">Productos</a></li>
+      <li><a href="carrito_3190256264.html">Carrito <span id="contador-carrito_3190256264">0</span></a></li>
+      <li><a href="perfil_3190256264.html">Mi Perfil</a></li>
+    </ul>
+  </nav>
+  <h2 class="titulo-seccion_3190256264">Catálogo de Productos</h2>
+  
+  <h2 id="verduras" class="titulo-seccion_3190256264">Verduras</h2>
+  <div class="promos_3190256264">
+    <div class="promo_3190256264">
+      <img src="tomate.jpg" alt="Tomate">
+      <p><strong>Tomate - Q8.00 lb</strong></p>
+      <button class="btn-carrito_3190256264" onclick="agregarAlCarrito_3190256264('Tomate', 8.00)">Agregar al carrito</button>
+    </div>
+    <div class="promo_3190256264">
+      <img src="lechuga.jpg" alt="Lechuga">
+      <p><strong>Lechuga - Q5.00 unidad</strong></p>
+      <button class="btn-carrito_3190256264" onclick="agregarAlCarrito_3190256264('Lechuga', 5.00)">Agregar al carrito</button>
+    </div>
+  </div>
+
+  <h2 id="carnes" class="titulo-seccion_3190256264">Carnes</h2>
+  <div class="promos_3190256264">
+    <div class="promo_3190256264">
+      <img src="pollo.jpg" alt="Pollo">
+      <p><strong>Pollo Entero - Q35.00</strong></p>
+      <button class="btn-carrito_3190256264" onclick="agregarAlCarrito_3190256264('Pollo Entero', 35.00)">Agregar al carrito</button>
+    </div>
+    <div class="promo_3190256264">
+      <img src="carne.jpg" alt="Res">
+      <p><strong>Carne de Res - Q28.00 lb</strong></p>
+      <button class="btn-carrito_3190256264" onclick="agregarAlCarrito_3190256264('Carne de Res', 28.00)">Agregar al carrito</button>
+    </div>
+  </div>
+
+  <h2 id="bebidas" class="titulo-seccion_3190256264">Bebidas</h2>
+  <div class="promos_3190256264">
+    <div class="promo_3190256264">
+      <img src="gaseosa.jpg" alt="Gaseosa">
+      <p><strong>Gaseosa 3L - Q35.00</strong></p>
+      <button class="btn-carrito_3190256264" onclick="agregarAlCarrito_3190256264('Gaseosa 3L', 35.00)">Agregar al carrito</button>
+    </div>
+  </div>
+
+  <h2 id="abarrotes" class="titulo-seccion_3190256264">Abarrotes</h2>
+  <div class="promos_3190256264">
+    <div class="promo_3190256264">
+      <img src="arroz.jpg" alt="Arroz">
+      <p><strong>Arroz 5 lb - Q20.00</strong></p>
+      <button class="btn-carrito_3190256264" onclick="agregarAlCarrito_3190256264('Arroz 5 lb', 20.00)">Agregar al carrito</button>
+    </div>
+  </div>
+
+  <h2 id="frutas" class="titulo-seccion_3190256264">Frutas</h2>
+  <div class="promos_3190256264">
+    <div class="promo_3190256264">
+      <img src="Manzana..jpg" alt="Manzana">
+      <p><strong>Manzana - Q5.00 lb</strong></p>
+      <button class="btn-carrito_3190256264" onclick="agregarAlCarrito_3190256264('Manzana', 5.00)">Agregar al carrito</button>
+    </div>
+    <div class="promo_3190256264">
+      <img src="Plátano.jpg" alt="Banano">
+      <p><strong>Banano - Q1.00 unidad</strong></p>
+      <button class="btn-carrito_3190256264" onclick="agregarAlCarrito_3190256264('Banano', 1.00)">Agregar al carrito</button>
+    </div>
+  </div>
+
+<body class="body_3190256264">
+  <!-- OLAS ANIMADAS DE FONDO -->
+  <div class="waves-container_3190256264">
+    <svg class="waves_3190256264" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path class="wave_3190256264" fill="#00cc96" fill-opacity="0.4" d="M0,160L48,176C96,192,192,224,288,213.3C384,203,480,149,576,138.7C672,128,768,160,864,181.3C960,203,1056,213,1152,197.3C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      <path class="wave_3190256264" fill="#00e6a8" fill-opacity="0.3" d="M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,208C672,213,768,203,864,186.7C960,171,1056,149,1152,154.7C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      <path class="wave_3190256264" fill="#00ffb8" fill-opacity="0.2" d="M0,256L48,240C96,224,192,192,288,186.7C384,181,480,203,576,213.3C672,224,768,224,864,208C960,192,1056,160,1152,160C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+    <!-- Burbujas flotantes -->
+    <div class="bubble_3190256264"></div>
+    <div class="bubble_3190256264"></div>
+    <div class="bubble_3190256264"></div>
+    <div class="bubble_3190256264"></div>
+    <div class="bubble_3190256264"></div>
+    <div class="bubble_3190256264"></div>
+    <div class="bubble_3190256264"></div>
+  </div>
+  
+  <header class="header_3190256264">
+  <footer class="footer_3190256264">
+    <div class="redes_3190256264">
+      <a href="https://facebook.com" target="_blank">📘 Facebook</a>
+      <a href="https://instagram.com" target="_blank">📸 Instagram</a>
+      <a href="https://wa.me/50238887091" target="_blank">💬 WhatsApp</a>
+    </div>
+    <p>Integrantes: Josué Fernando Vásquez Franco – 3190-25-6264</p>
+  </footer>
+
+  <script src="js/carrito_3190256264.js"></script>
+</body>
+</html>
